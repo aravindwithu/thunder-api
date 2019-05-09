@@ -10,6 +10,7 @@ for all the requirment information please refer requirements.txt
 docker image/container name is thunder-api
 
 ----------------------------------------------------------------------------
+Note: Always run make clean before make.
 
 commands:
 
