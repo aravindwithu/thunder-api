@@ -25,3 +25,9 @@ make run -> runs the docker image as container.
 make stop -> stops & removes the docker container.
 
 make rmi -> removes docker image.
+
+-----------------------------------------------------------------------------
+
+host: localhost/respective IP
+port: 5050
+url: https://localhost:5050
