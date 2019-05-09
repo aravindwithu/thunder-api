@@ -30,4 +30,4 @@ make rmi -> removes docker image.
 
 host: localhost/respective IP
 port: 5050
-url: https://localhost:5050
+url: http://localhost:5050/
