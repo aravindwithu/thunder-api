@@ -1,14 +1,14 @@
 # Thunder-api
 
-by aravind venkit (avenkituswamy)
+By `aravind venkit` (avenkituswamy)
 used python, flask, restplus, docker, api
 
 we use python 3 along with following packages
 pip3, flask-bcrypt, flask-restplus, Flask-Migrate, pyjwt, Flask-Script, flask_testing
 
-for all the requirment information please refer requirements.txt
+for all the requirment information please refer `requirements.txt`
 
-docker image/container name is thunder-api
+docker image/container name is `thunder-api`
 
 ----------------------------------------------------------------------------
 Note: Always run make clean before make.
