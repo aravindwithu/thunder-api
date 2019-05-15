@@ -1,6 +1,6 @@
 # Thunder-api
 
-By `aravind venkit` (avenkituswamy)
+By [aravind venkit](http://aravindvenkit.com/) (avenkituswamy)
 used python, flask, restplus, docker, api
 
 we use python 3 along with following packages
