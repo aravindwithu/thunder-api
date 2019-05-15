@@ -1,4 +1,5 @@
-thunder-api
+#Thunder-api
+
 by aravind venkit (avenkituswamy)
 used python, flask, restplus, docker, api
 
@@ -12,22 +13,22 @@ docker image/container name is thunder-api
 ----------------------------------------------------------------------------
 Note: Always run make clean before make.
 
-commands:
+#Commands:
 
-make -> builds docker image and runs the docker image as container.
+`make` -> builds docker image and runs the docker image as container.
 
-make clean -> stops & removes the docker container, and removes docker image as well.
+`make clean` -> stops & removes the docker container, and removes docker image as well.
 
-make build -> builds docker image.
+`make build` -> builds docker image.
 
-make run -> runs the docker image as container.
+`make run` -> runs the docker image as container.
 
-make stop -> stops & removes the docker container.
+`make stop` -> stops & removes the docker container.
 
-make rmi -> removes docker image.
+`make rmi` -> removes docker image.
 
 -----------------------------------------------------------------------------
 
 host: localhost/respective IP
 port: 5050
-url: http://localhost:5050/
+url: `http://localhost:5050/`

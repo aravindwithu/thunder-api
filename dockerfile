@@ -5,7 +5,7 @@ MAINTAINER aravind-venkit "avenkit2@binghamton.edu"
 RUN apt-get update -y
 RUN apt-get install -y -q apt-transport-https ca-certificates
 RUN apt-get install -y python3 python3-pip
-RUN pip3 install flask-bcrypt flask-restplus Flask-Migrate pyjwt Flask-Script flask_testing
+RUN pip3 install flask-bcrypt flask-restplus Flask-Migrate pyjwt Flask-Script flask_testing flask-cors
 COPY . /thunder-api
 WORKDIR /thunder-api
 RUN pip3 install -r requirements.txt

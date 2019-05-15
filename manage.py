@@ -3,6 +3,8 @@ import unittest
 
 from flask_migrate import Migrate, MigrateCommand
 from flask_script import Manager
+from flask_cors import CORS
+
 from app import blueprint
 from app.main.model import blacklist
 
@@ -13,6 +15,8 @@ from app.main.model import user
 app = create_app(os.getenv('BOILERPLATE_ENV') or 'dev')
 
 app.register_blueprint(blueprint)
+
+CORS(app, resources=r'/*')
 
 app.app_context().push()
 
