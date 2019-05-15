@@ -1,4 +1,4 @@
-#Thunder-api
+# Thunder-api
 
 by aravind venkit (avenkituswamy)
 used python, flask, restplus, docker, api
@@ -13,7 +13,7 @@ docker image/container name is thunder-api
 ----------------------------------------------------------------------------
 Note: Always run make clean before make.
 
-#Commands:
+## Commands:
 
 `make` -> builds docker image and runs the docker image as container.
 
